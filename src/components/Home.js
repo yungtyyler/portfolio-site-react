@@ -11,7 +11,7 @@ const Home = () => {
             <div className='flex flex-col justify-center h-full'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>Full Stack Developer</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                    I have a passion for creating esthetic, responsive, and functional websites, and applications.<br />Providing innovative solutions to complex problems is what I do.
                 </p>
 
                 <div>
