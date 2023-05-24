@@ -40,7 +40,7 @@ const Education = () => {
     ]
 
     return (
-        <div name='education' className='w-full h-screen bg-gradient-to-b from-black via-gray-800 to-black text-white'>
+        <div name='education' className='w-full h-screen bg-gray-800 text-white'>
             <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Education</p>
@@ -50,14 +50,14 @@ const Education = () => {
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0'>
                     {educations.map(({ id, school, degree, year, src, alt }) => {
                         return(
-                            <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
+                            <div key={id} className='shadow-md shadow-gray-600 bg-black rounded-lg'>
                                 <div className='flex justify-center items-center'>
-                                    <img src={src} alt={alt} className='rounded-md duration-200 hover:scale-105'></img>
+                                    <img src={src} alt={alt} className='rounded-md bg-white duration-200 hover:scale-105'></img>
                                 </div>
-                                <div className='flex items-center justify-center p-3 bg-gradient-to-b from-black via-black text-lg font-semibold'>
+                                <div className='flex items-center justify-center p-3 bg-black text-lg font-semibold'>
                                     <p>{school} - {degree}</p>
                                 </div>
-                                <div className='flex items-center justify-center text-center'>
+                                <div className='flex items-center bg-black justify-center text-center'>
                                     <p>{year}</p>
                                 </div>
                             </div>
