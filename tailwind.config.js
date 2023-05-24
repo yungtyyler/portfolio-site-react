@@ -9,7 +9,5 @@ module.exports = {
       signature: ["Great Vibes"],
     },
   },
-  plugins: [
-    require('tailwindcss/gradients'),
-  ],
+  plugins: [],
 };
