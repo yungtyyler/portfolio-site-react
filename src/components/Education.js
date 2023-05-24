@@ -47,7 +47,7 @@ const Education = () => {
                     <p className='py-6'>My educational background</p>
                 </div>
                     
-                <div className='w-full grid grid-cols-1 sm:grid-cols-2 gap-8 text-center py-8 px-12 sm:px-0'>
+                <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0'>
                     {educations.map(({ id, school, degree, year, src, alt }) => {
                         return(
                             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
